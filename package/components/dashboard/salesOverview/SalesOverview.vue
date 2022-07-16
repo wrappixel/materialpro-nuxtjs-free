@@ -1,5 +1,11 @@
 <script setup lang="ts">
+import { onMounted } from "vue";
 import GoogleChart from "./Gchart";
+const elementVisible = ref(false);
+
+onMounted(() => {
+  setTimeout(() => (elementVisible.value = true), 350);
+});
 </script>
 
 <template>
@@ -36,9 +42,7 @@ import GoogleChart from "./Gchart";
           </div>
         </div>
       </div>
-      <client-side>
-        <div class="mt-5"><GoogleChart /></div>
-      </client-side>
+      <div class="mt-5" v-if="elementVisible"><GoogleChart /></div>
     </v-card-text>
   </v-card>
 </template>
