@@ -1,0 +1,48 @@
+.scrollnavbar {
+  height: calc(100vh - 70px);
+  overflow: auto;
+  .v-list--one-line {
+    .v-list-group__items .v-list-item,
+    .v-list-item {
+      padding-inline-start: 12px !important;
+      padding-left: 12px;
+      opacity: 0.6;
+      .v-list-item-title {
+        font-size: 14px;
+      }
+    }
+    .v-list-item:hover {
+      opacity: 1;
+    }
+    .v-list-group__items .v-list-item .v-avatar.v-avatar--density-default,
+    .v-avatar.v-avatar--density-default {
+      width: 30px;
+      height: 30px;
+      line-height: 24px;
+    }
+    .v-list-item--active {
+      background: rgb(var(--v-theme-secondary));
+      color: white;
+      opacity: 1;
+      .v-avatar {
+        color: inherit;
+      }
+    }
+  }
+  .profile {
+    background: url("/images/background/user-info.jpg") no-repeat;
+    .profile-pic {
+      padding: 30px 15px;
+    }
+  }
+  .profile-name {
+    background: rgba(0, 0, 0, 0.5);
+    h5 {
+      padding: 10px;
+      color: white;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+}

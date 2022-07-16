@@ -1,0 +1,89 @@
+html {
+  .v-main {
+    min-height: 100vh;
+  }
+  .v-theme--light {
+    .v-main {
+      background: $lightbg;
+    }
+    .v-card .title {
+      color: rgba(0, 0, 0, 0.87);
+      position: relative;
+    }
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .page-wrapper {
+    padding: 30px;
+    max-width: 1300px;
+  }
+
+  $sizes: (
+    "display-1": 44px,
+    "display-2": 40px,
+    "display-3": 30px,
+    "h1": 36px,
+    "h2": 30px,
+    "h3": 21px,
+    "h4": 18px,
+    "h5": 16px,
+    "h6": 14px,
+    "text-10": 10px,
+    "text-13": 13px,
+    "text-18": 18px,
+    "text-20": 20px,
+    "text-24": 24px,
+    "body-text-1": 10px,
+  );
+
+  @each $pixel, $size in $sizes {
+    .#{$pixel} {
+      font-size: $size;
+      line-height: $size + 10;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+    font-family: $body-font-family;
+  }
+  .feather-sm {
+    width: 20px;
+    height: 20px;
+    display: unset !important;
+  }
+
+  .customizer-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+  }
+  .fixed-width {
+    max-width: 1300px;
+  }
+  .h-100 {
+    height: 100%;
+  }
+  .w-100 {
+    width: 100%;
+  }
+
+  .h-100vh {
+    height: 100vh;
+  }
+
+  .gap-2 {
+    gap: 8px;
+  }
+
+  // border
+  .border-right {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}

@@ -1,0 +1,59 @@
+html {
+  font-family: $font-family;
+
+  .v-application {
+    [class*="text-"] {
+      font-family: $font-family, sans-serif !important;
+    }
+    font-family: $font-family, sans-serif !important;
+  }
+
+  .elevation-10 {
+    box-shadow: $box-shadow !important;
+  }
+  .elevation-5 {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.34) !important;
+  }
+  .v-card-text {
+    padding: 20px 30px 30px;
+  }
+  .v-card-header {
+    padding: 30px 30px 0.625rem;
+  }
+  .v-card-actions {
+    padding: 0.625rem 30px 30px;
+  }
+  .v-card {
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: $box-shadow !important;
+  }
+  .v-btn {
+    text-transform: capitalize;
+    letter-spacing: $btn-letter-spacing;
+    transition: 0.05 ease-in;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .v-btn-group .v-btn {
+    height: inherit !important;
+  }
+
+  .v-navigation-drawer__scrim.fade-transition-leave-to {
+    display: none;
+  }
+
+  .theme-carousel .v-carousel__progress {
+    position: absolute;
+  }
+  .v-theme--light,
+  .v-theme--dark {
+    --v-theme-on-warning: 255, 255, 255;
+    --v-theme-on-success: 255, 255, 255;
+    --v-theme-on-secondary: 255, 255, 255;
+  }
+  .v-card.w-auto {
+    width: auto !important;
+  }
+}

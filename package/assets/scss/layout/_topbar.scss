@@ -1,0 +1,27 @@
+.searchinput {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  z-index: 10;
+}
+.verticalLayout {
+  .v-app-bar.v-toolbar.v-topbar {
+    margin-left: 265px;
+    width: calc(100% - 265px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 40px;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .mini-sidebar {
+    .logo {
+      width: 40px;
+      overflow: hidden;
+    }
+  }
+}
