@@ -42,13 +42,13 @@ const sidebarMenu = ref(sidebarItems);
         <h4 class="font-weight-regular mb-3">Get Template for Free</h4>
         <v-btn
           class="mb-2"
-          href="https://www.wrappixel.com/templates/flexy-vuejs-admin-free/"
+          href="https://www.wrappixel.com/templates/materialpro-free-nuxtjs-admin-template/"
           block
           >Download Free</v-btn
         >
         <v-btn
           color="primary"
-          href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/"
+          href="https://www.wrappixel.com/templates/materialpro-nuxtjs/"
           block
           >Check Pro</v-btn
         >
