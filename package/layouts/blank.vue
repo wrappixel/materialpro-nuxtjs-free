@@ -1,10 +1,11 @@
+// ===============================|| Blank Layout ||=============================== //
 <script setup lang="ts">
-useMeta({
-  title: "MaterialPro Free NuxtJs 3 Dashboard",
-});
+import { RouterView } from "vue-router";
 </script>
 <template>
   <v-app>
-    <slot />
+    <RouterView />
   </v-app>
 </template>
+
+

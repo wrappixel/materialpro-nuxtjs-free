@@ -1,34 +1,55 @@
 import { createVuetify } from "vuetify";
-import type { ThemeDefinition } from "vuetify";
 import "@mdi/font/css/materialdesignicons.css";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
+import PerfectScrollbar from "vue3-perfect-scrollbar";
+import VueApexCharts from "vue3-apexcharts";
+import VueTablerIcons from "vue-tabler-icons";
+import "@/assets/scss/style.scss";
 
-const Lighttheme: ThemeDefinition = {
-  dark: false,
-  variables: {},
-  colors: {
-    primary: "#1e88e5",
-    info: "#03c9d7",
-    success: "#05b187",
-    accent: "#fc4b6c",
-    warning: "#fec90f",
-    error: "#fc4b6c",
-    secondary: "#0cb9c5",
-  },
-};
+import {
+  BLUE_THEME,
+} from "@/theme/LightTheme";
+
 export default defineNuxtPlugin((nuxtApp) => {
-  // Doing something with nuxtApp
-
   const vuetify = createVuetify({
     components,
     directives,
     theme: {
+      defaultTheme: "BLUE_THEME",
       themes: {
-        light: Lighttheme,
-        variables: {},
+        BLUE_THEME,
+      },
+    },
+    defaults: {
+      VCard: {
+        rounded: "md",
+      },
+      VTextField: {
+        variant: "outlined",
+        density: "comfortable",
+        color: "primary",
+      },
+      VTextarea: {
+        variant: "outlined",
+        density: "comfortable",
+        color: "primary",
+      },
+      VSelect: {
+        variant: "outlined",
+        density: "comfortable",
+        color: "primary",
+      },
+      VListItem: {
+        minHeight: "45px",
+      },
+      VTooltip: {
+        location: "top",
       },
     },
   });
   nuxtApp.vueApp.use(vuetify);
+  nuxtApp.vueApp.use(PerfectScrollbar);
+  nuxtApp.vueApp.use(VueApexCharts);
+  nuxtApp.vueApp.use(VueTablerIcons);
 });

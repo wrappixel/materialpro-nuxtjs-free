@@ -1,13 +1,17 @@
-// @use "vuetify/styles" with (
-//   $body-font-family: "Montserrat"!default,
-//   $border-radius-root: 5px
-// );
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import 'variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
 
-@use "vuetify/styles";
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-//@import "vuetify/lib/styles/main.sass";
-@import "./variables";
-@import "./override";
-@import "./layout/container";
-@import "./layout/sidebar";
-@import "./layout/topbar";
+@import './components/VAlert';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VCarousel';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';

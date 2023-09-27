@@ -1,89 +1,49 @@
 html {
-  .v-main {
-    min-height: 100vh;
-  }
-  .v-theme--light {
+    overflow-y: auto;
+}
+.v-main{
+    background:rgb(var(--v-theme-background)) !important; ;
+}
+@media (max-width: 1279px) {
     .v-main {
-      background: $lightbg;
+        margin: 0 10px;
     }
-    .v-card .title {
-      color: rgba(0, 0, 0, 0.87);
-      position: relative;
-    }
-  }
+}
 
-  .cursor-pointer {
+.cursor-pointer {
     cursor: pointer;
-  }
-  .page-wrapper {
-    padding: 30px;
-    max-width: 1300px;
-  }
+}
 
-  $sizes: (
-    "display-1": 44px,
-    "display-2": 40px,
-    "display-3": 30px,
-    "h1": 36px,
-    "h2": 30px,
-    "h3": 21px,
-    "h4": 18px,
-    "h5": 16px,
-    "h6": 14px,
-    "text-10": 10px,
-    "text-13": 13px,
-    "text-18": 18px,
-    "text-20": 20px,
-    "text-24": 24px,
-    "body-text-1": 10px,
-  );
-
-  @each $pixel, $size in $sizes {
-    .#{$pixel} {
-      font-size: $size;
-      line-height: $size + 10;
+.page-wrapper {
+    min-height: calc(100vh - 100px);
+    padding: 24px;
+    // border-radius: $border-radius-root;
+    @media screen and (max-width: 767px) {
+        padding: 20px 10px;
     }
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 500;
-    font-family: $body-font-family;
-  }
-  .feather-sm {
-    width: 20px;
-    height: 20px;
-    display: unset !important;
-  }
+}
 
-  .customizer-btn {
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-  }
-  .fixed-width {
+.maxWidth {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fixed-width {
     max-width: 1300px;
-  }
-  .h-100 {
+}
+
+.right-pos-img {
+    position: absolute;
+    right: 0;
+    top: 0;
     height: 100%;
-  }
-  .w-100 {
-    width: 100%;
-  }
-
-  .h-100vh {
-    height: 100vh;
-  }
-
-  .gap-2 {
-    gap: 8px;
-  }
-
-  // border
-  .border-right {
-    border-right: 1px solid rgba(0, 0, 0, 0.12);
-  }
+}
+.lstick {
+    width: 2px;
+    background: rgb(var(--v-theme-primary));
+    height: 30px;
+    position: absolute;
+    left: 1px;
+    top: 40px;
+    transform: translate(-50%, -50%);
 }

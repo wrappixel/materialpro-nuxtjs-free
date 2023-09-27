@@ -1,20 +1,31 @@
 <script setup lang="ts">
-import SalesOverview from "~~/components/dashboard/salesOverview/SalesOverview.vue";
-import ProfileCard from "~~/components/dashboard/profile/ProfileCard.vue";
-import MyContacts from "~~/components/dashboard/contacts/MyContacts.vue";
-import Timeline from "../components/dashboard/timeline/Timeline.vue";
-import Blog from "../components/dashboard/blog/Blog.vue";
+import { ref } from "vue";
+import TheSalesOverview from "@/components/dashboard/TheSalesOverview.vue";
+import BlogCard from "@/components/dashboard/BlogCard.vue";
+import TheProfileCard from '@/components/dashboard/TheProfileCard.vue';
+import TheMyContacts from '@/components/dashboard/TheMyContacts.vue';
+import TheActivityTimeline from '@/components/dashboard/TheActivityTimeline.vue'
 </script>
 
 <template>
   <v-row>
-    <v-col cols="12" sm="12" lg="8"> <SalesOverview /></v-col>
-    <v-col cols="12" sm="12" lg="4"><Blog /></v-col>
-    <v-col cols="12" sm="12" lg="4">
-      <ProfileCard />
-      <div class="mb-7"></div>
-      <MyContacts />
+    <!---SalesOverview--->
+    <v-col cols="12" sm="12" lg="8">
+      <TheSalesOverview />
     </v-col>
-    <v-col cols="12" sm="12" lg="8"><Timeline /></v-col>
+    <!---Blog Card--->
+    <v-col cols="12" sm="12" lg="4">
+      <BlogCard />
+    </v-col>
+    <!---Profile card /my contacts--->
+    <v-col cols="12" sm="12" lg="4">
+      <TheProfileCard />
+      <div class="mt-7"></div>
+      <TheMyContacts />
+    </v-col>
+    <!---Activity timeline tabs--->
+    <v-col cols="12" sm="12" lg="8">
+      <TheActivityTimeline />
+    </v-col>
   </v-row>
 </template>
