@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="10">
+  <v-card class="pa-3" elevation="10">
     <v-card-text>
       <div>
         <h3 class="text-h5 title mb-1">Timeline Overview</h3>

@@ -42,7 +42,7 @@ function href() {
         <h5 class="text-subtitle-1">Checkout my contacts here</h5>
       </div>
 
-      <div class="pa-4">
+      <div class="pa-6">
         <v-list>
           <v-list-item v-for="(item, i) in myContactsData" :key="i" @click="href">
             <v-list-item-title>

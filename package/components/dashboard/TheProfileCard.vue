@@ -1,12 +1,12 @@
 <template>
-    <VCard elevation="10" class="overflow-hidden">
+    <VCard elevation="10" class="overflow-hidden ">
       <img src="/images/backgrounds/login-register.jpg" class="w-100" />
       <div class="d-flex justify-center mt-n15">
         <v-avatar size="100">
           <img src="/images/profile/1.jpg" width="100" alt="user" />
         </v-avatar>
       </div>
-      <v-card-text>
+      <v-card-text class="pa-6">
         <div class="p-4 text-center">
           <h2 class="mb-0 mt-4 text-h4">Jonathan Dominic</h2>
           <div>Web Designer &amp; Developer</div>

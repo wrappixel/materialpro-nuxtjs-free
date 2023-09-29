@@ -6,7 +6,7 @@ import { ClockHour4Icon, MessageCircle2Icon, MessageCircleIcon } from 'vue-table
 <template>
   <VCard elevation="10" class="overflow-hidden">
     <img style="width: 100%" src="/images/backgrounds/u5.jpg" />
-    <v-card-text>
+    <v-card-text class="pa-7">
       <h3 class="text-h6 d-flex align-center">
         <ClockHour4Icon class="mr-1" size="20"/>
         22 March, 2022

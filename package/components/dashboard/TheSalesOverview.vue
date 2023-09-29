@@ -69,7 +69,7 @@ onMounted(() => {
   <!-- ------------------------------------ -->
   <!-- html -->
   <!-- ------------------------------------ -->
-<VCard elevation="10">
+<VCard class="pa-3" elevation="10">
     <v-card-text>
       <div class="d-sm-flex align-center">
         <div>
