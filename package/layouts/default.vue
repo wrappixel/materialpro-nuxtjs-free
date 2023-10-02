@@ -1,6 +1,4 @@
 <script setup lang="ts">
-
-import { RouterView } from 'vue-router';
 import { ref, onMounted } from "vue";
 import { useDisplay } from "vuetify";
 useHead({
@@ -44,7 +42,7 @@ onMounted(() => {
                 </v-navigation-drawer>
                 <v-container fluid class="page-wrapper">
                     <div class="maxWidth">
-                        <RouterView />
+                        <NuxtPage  />
                     </div>
                 </v-container>
             </v-main>
