@@ -34,7 +34,7 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>NuxtJs</th>
 <th>React</th>
 <th>Vue</th>
 <th>Angular</th>
@@ -43,23 +43,23 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="MaterialPro Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-nuxtjs-admin-wpn.jpg" alt="MaterialPro Template  Bootstrap" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-admin-y.jpg" alt="MaterialPro Template  React" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-react-admin-wpn.jpg" alt="MaterialPro Template  React" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/05/materialpro-vuejs-dashboard-template-20.jpg" alt="MaterialPro Template  Vue" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-vuetify-admin-wpn.jpg" alt="MaterialPro Template  Vue" style="max-width:150px;">
   </a>
 </td>
   <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="MaterialPro Template  Angular" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-angular-admin-wpn.jpg" alt="MaterialPro Template  Angular" style="max-width:150px;">
   </a>
 </td>
 </tr>
@@ -99,11 +99,11 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 
 ## Why should I upgrade to the pro version?
 
-<a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/materialpro-nuxtjs.jpg"/></a><br/>
+<a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=33"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-nuxtjs-admin-wpn.jpg"/></a><br/>
 
 <p>
    Checkout our premium version of MaterialPro NuxtJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://materialpro-nuxtjs-main.netlify.app/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/">Download</a>
+   <a href="https://materialpro-nuxtjs-main.netlify.app/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=33">Download</a>
 </p>
 
 The pro version of MaterialPro NuxtJs Admin Template incorporates over 60+ page templates along with four distinctive colour scheme,4 unique demos, and multiple user-interface components.
