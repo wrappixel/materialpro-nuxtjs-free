@@ -85,7 +85,7 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2022 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2024 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
