@@ -1,21 +1,29 @@
-import vuetify from "vite-plugin-vuetify";
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+
   typescript: {
-    shim: false,
+    shim: false
   },
-  app: {
-    head: {
-      title:
-        "MaterialPro Free Nuxt 3 Dashboard",
-    },
-  },
+
   build: {
     transpile: ["vuetify"],
   },
+
+  vite: {
+    define: {
+      "process.env.DEBUG": false,
+    },
+  },
+
   nitro: {
     serveStatic: true,
   },
-  sourcemap: { server: false, client: false },
+
   devServerHandlers: [],
-});
+
+  hooks: {
+  },
+
+  compatibilityDate: "2025-04-15",
+})

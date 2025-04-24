@@ -1,187 +1,136 @@
+<script setup lang="ts">
+import { Icon } from '@iconify/vue';
+</script>
 <template>
     <div class="profiletimeline position-relative">
-      <div class="sl-item mt-2 mb-3">
-        <div class="sl-left float-left me-3">
-          <img
-            src="/images/profile/1.jpg"
-            width="40"
-            alt="user"
-            class="rounded-circle"
-          />
-        </div>
-        <div class="sl-right">
-          <div>
-            <div class="d-md-flex align-items-center">
-              <h3 class="text-h6">John Doe</h3>
-              <div class="sl-date text-muted ms-1">5 minutes ago</div>
+        <div class="sl-item mt-2 mb-3">
+            <div class="sl-left float-left me-3">
+                <img src="/images/users/user-2.jpg" height="56" alt="user" class="rounded-circle" />
             </div>
-  
-            <p>assign a new task Design weblayout</p>
-            <div class="v-row mt-3">
-              <div class="v-col-lg-3 v-col-md-6 mb-3">
-                <img src="/images/big/img1.jpg" width="100%" alt="user" />
-              </div>
-              <div class="v-col-lg-3 v-col-md-6 mb-3">
-                <img src="/images/big/img2.jpg" width="100%" alt="user" />
-              </div>
-              <div class="v-col-lg-3 v-col-md-6 mb-3">
-                <img src="/images/big/img3.jpg" width="100%" alt="user" />
-              </div>
-              <div class="v-col-lg-3 v-col-md-6 mb-3">
-                <img src="/images/big/img4.jpg" width="100%" alt="user" />
-              </div>
+            <div class="sl-right w-100 ps-3">
+                <div>
+                    <div class="d-flex justify-space-between align-center pt-1">
+                        <div class="d-md-flex align-center">
+                            <h3 class="text-h6 cursor-pointer hover-primary lh-normal">John Doe</h3>
+                            <div class="sl-date ms-3 text-subtitle-1 textSecondary">5 minutes ago</div>
+                        </div>
+                        <v-btn density="comfortable" flat icon size="30">
+                            <Icon icon="solar:menu-dots-line-duotone" height="22" />
+                        </v-btn>
+                    </div>
+
+                    <p class="textSecondary text-15">assign a new task <span class="text-primary cursor-pointer">Design weblayout</span></p>
+                    <div class="v-row mt-1">
+                        <div class="v-col-lg-3 v-col-md-6 mb-3">
+                            <img src="/images/blog/blog-img1.jpg" class="rounded-md w-100" alt="user" />
+                        </div>
+                        <div class="v-col-lg-3 v-col-md-6 mb-3">
+                            <img src="/images/blog/blog-img2.jpg" class="rounded-md w-100" alt="user" />
+                        </div>
+                        <div class="v-col-lg-3 v-col-md-6 mb-3">
+                            <img src="/images/blog/blog-img3.jpg" class="rounded-md w-100" alt="user" />
+                        </div>
+                        <div class="v-col-lg-3 v-col-md-6 mb-3">
+                            <img src="/images/blog/blog-img1.jpg" class="rounded-md w-100" alt="user" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a href="/" class="text-decoration-none mr-3 text-primary"
-              ><v-icon>mdi-message</v-icon> comments</a
-            >
-            <a href="/" class="text-decoration-none text-error"
-              ><v-icon>mdi-heart</v-icon> 5 Likes</a
-            >
-          </div>
         </div>
-      </div>
-      <v-divider></v-divider>
-      <div class="sl-item my-4 border-top pt-4">
-        <div class="sl-left float-left me-3">
-          <img
-            src="/images/profile/2.jpg"
-            width="40"
-            alt="user"
-            class="rounded-circle"
-          />
-        </div>
-        <div class="sl-right">
-          <div>
-            <div class="d-md-flex align-items-center">
-              <h3 class="text-h6">James Smith</h3>
-              <div class="sl-date text-muted ms-1">5 minutes ago</div>
+
+        <div class="sl-item my-4">
+            <div class="sl-left float-left me-3">
+                <img src="/images/users/user-3.jpg" height="56" alt="user" class="rounded-circle" />
             </div>
-            <div class="mt-3 v-row">
-              <div class="v-col-md-3">
-                <img
-                  src="/images/big/img4.jpg"
-                  class="w-100"
-                  alt="user"
-                />
-              </div>
-              <div class="v-col-md-9 mt-3 mt-md-0">
-                <p class="fs-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                  nec odio. Praesent libero. Sed cursus ante dapibus diam.
-                </p>
-                <v-btn color="primary" variant="flat" flat class="mt-3">
-                  Design weblayout</v-btn
-                >
-              </div>
+            <div class="sl-right w-100 ps-3">
+                <div class="pt-1">
+                    <div class="d-flex justify-space-between align-center pt-1">
+                        <div class="d-md-flex align-center">
+                            <h3 class="text-h6 cursor-pointer hover-primary lh-normal">Maria Smith</h3>
+                            <div class="sl-date ms-3 text-subtitle-1 textSecondary">5 minutes ago</div>
+                        </div>
+                        <v-btn density="comfortable" flat icon size="30">
+                            <Icon icon="solar:menu-dots-line-duotone" height="22" />
+                        </v-btn>
+                    </div>
+                    <div class="mt-3 bg-lightprimary text-15 pa-5 rounded-md">
+                        <p class="textSecondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+                            dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="text-nowrap mt-3">
-              <a href="/" class="text-decoration-none mr-3 text-primary"
-                ><v-icon>mdi-message</v-icon> comments</a
-              >
-              <a href="/" class="text-decoration-none text-error"
-                ><v-icon>mdi-heart</v-icon> 5 Likes</a
-              >
+        </div>
+        <div class="sl-item my-4 pt-4">
+            <div class="sl-left float-left me-3">
+                <img src="/images/users/user-2.jpg" height="56" alt="user" class="rounded-circle" />
             </div>
-          </div>
-        </div>
-      </div>
-      <v-divider></v-divider>
-      <div class="sl-item my-4 border-top pt-4">
-        <div class="sl-left float-left me-3">
-          <img
-            src="/images/profile/3.jpg"
-            width="40"
-            alt="user"
-            class="rounded-circle"
-          />
-        </div>
-        <div class="sl-right">
-          <div>
-            <div class="d-md-flex align-items-center">
-              <h3 class="text-h6">Maria Smith</h3>
-              <div class="sl-date text-muted ms-1">5 minutes ago</div>
+            <div class="sl-right w-100 ps-3">
+                <div class="pt-1">
+                    <div class="d-flex justify-space-between align-center pt-1">
+                        <div class="d-md-flex align-center">
+                            <h3 class="text-h6 cursor-pointer hover-primary lh-normal">James Smith</h3>
+                            <div class="sl-date ms-3 text-subtitle-1 textSecondary">8 minutes ago</div>
+                        </div>
+                        <v-btn density="comfortable" flat icon size="30">
+                            <Icon icon="solar:menu-dots-line-duotone" height="22" />
+                        </v-btn>
+                    </div>
+                    <v-row class="mt-1">
+                        <v-col cols="12" lg="5">
+                            <div class="border rounded-md px-7 py-5">
+                                <div class="d-flex ga-3 align-center">
+                                    <img src="/images/icons/icon-zip.svg" height="40" alt="user" />
+                                    <div>
+                                        <h5 class="text-16 font-weight-medium">Payments.zip</h5>
+                                        <p class="text-14 textSecondary">150kb</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </v-col>
+                        <v-col cols="12" lg="5">
+                            <div class="border rounded-md px-7 py-5">
+                                <div class="d-flex ga-3 align-center">
+                                    <img src="/images/icons/icon-figma.svg" height="40" alt="user" />
+                                    <div>
+                                        <h5 class="text-16 font-weight-medium">Homepage.fig</h5>
+                                        <p class="text-14 textSecondary">170kb</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </v-col>
+                        <v-col cols="12" lg="2">
+                            <div
+                                class="d-flex ga-3 align-center justify-center bg-lightprimary h-100 rounded-md text-h5 text-textSecondary"
+                            >
+                                +2
+                            </div>
+                        </v-col>
+                    </v-row>
+                    <p class="text-15 textSecondary mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+                    </p>
+                </div>
             </div>
-            <p class="my-4 fs-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-              odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-              quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
-              mauris. Fusce nec tellus sed augue semper
-            </p>
-          </div>
-          <div class="text-nowrap mt-3">
-            <a href="/" class="text-decoration-none mr-3 text-primary"
-              ><v-icon>mdi-message</v-icon> comments</a
-            >
-            <a href="/" class="text-decoration-none text-error"
-              ><v-icon>mdi-heart</v-icon> 5 Likes</a
-            >
-          </div>
         </div>
-      </div>
-      <v-divider></v-divider>
-      <div class="sl-item my-4 border-top pt-4">
-        <div class="sl-left float-left me-3">
-          <img
-            src="/images/profile/4.jpg"
-            width="40"
-            alt="user"
-            class="rounded-circle"
-          />
-        </div>
-        <div class="sl-right">
-          <div>
-            <div class="d-md-flex">
-              <h3 class="text-h6">john Smith</h3>
-              <div class="sl-date text-muted ms-1">5 minutes ago</div>
-            </div>
-            <v-alert class="mt-4 fs-3" color="primary" variant="tonal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt
-            </v-alert>
-          </div>
-        </div>
-      </div>
-      <v-divider></v-divider>
-      <div class="sl-item my-4 border-top pt-4">
-        <div class="sl-left float-left me-3">
-          <img
-            src="/images/profile/1.jpg"
-            width="40"
-            alt="user"
-            class="rounded-circle"
-          />
-        </div>
-        <div class="sl-right">
-          <div>
-            <div class="d-md-flex">
-              <h3 class="text-h6">john Smith</h3>
-              <div class="sl-date text-muted ms-1">5 minutes ago</div>
-            </div>
-            <v-alert class="mt-4 fs-3" color="secondary" variant="tonal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt
-            </v-alert>
-          </div>
-        </div>
-      </div>
     </div>
-  </template>
-  <style lang="scss">
-  .profiletimeline {
+</template>
+<style lang="scss">
+.profiletimeline {
     position: relative;
     padding-left: 40px;
     margin: 10px 10px 0 30px;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgb(var(--v-theme-inputBorder));
     .sl-item {
-      margin-top: 8px;
-      margin-bottom: 30px;
-      display: flex;
+        margin-top: 8px;
+        margin-bottom: 30px;
+        display: flex;
     }
     .sl-left {
-      margin-left: -60px;
-      z-index: 1;
-      margin-right: 15px;
+        margin-left: -68px;
+        z-index: 1;
+        margin-right: 15px;
     }
-  }
-  </style>
-  
+}
+</style>

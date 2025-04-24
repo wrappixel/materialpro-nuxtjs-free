@@ -10,6 +10,8 @@ export type ThemeTypes = {
         accent?: string;
         warning?: string;
         error?: string;
+        purple?: string;
+        indigo?: string;
         lightprimary?: string;
         lightsecondary?: string;
         lightsuccess?: string;
@@ -27,6 +29,5 @@ export type ThemeTypes = {
         'on-surface-variant'?: string;
         grey100?: string;
         grey200?: string;
-        darkbg?:string;
     };
 };

@@ -1,0 +1,36 @@
+html {
+    .bg-success {
+        color: white !important;
+    }
+
+    .bg-primary {
+        color: $white !important;
+    }
+
+    .bg-secondary {
+        color: $white !important;
+    }
+
+    .bg-warning {
+        color: $white !important;
+    }
+}
+.border,
+.v-divider {
+    border-color: rgba(var(--v-border-color), 1) !important;
+}
+
+.z-1{
+    z-index: 1 !important;
+}
+.lh-0{
+    line-height: 0;
+}
+.lh-normal{
+    line-height: normal;
+}
+.custom-text-primary{
+    &:hover{
+       color: rgba(var(--v-theme-primary)) !important; 
+    }
+}

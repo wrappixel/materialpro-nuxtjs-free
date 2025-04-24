@@ -1,51 +1,22 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { useDisplay } from "vuetify";
+const title = ref(
+  "MaterialPro - Nuxt3 Typescript based Free Admin Dashboard Template"
+);
 useHead({
-    title: "MaterialPro Free NuxtJs 3  Dashboard",
-});
-const drawer = ref(undefined || true);
-const innerW = window.innerWidth;
-const { mdAndUp, mdAndDown } = useDisplay();
-onMounted(() => {
-    if (innerW < 950) {
-        drawer.value = !drawer.value;
-    }
+  meta: [{ content: title }],
+  titleTemplate: (titleChunk) => {
+    return titleChunk
+      ? `${titleChunk} - Nuxt3 Typescript based Free Admin Dashboard Template`
+      : "MaterialPro - Nuxt3 Typescript based Free Admin Dashboard Template";
+  },
 });
 </script>
+
 <template>
-    <div>
-        <v-app>
-            <!-- ---------------------------------------------- -->
-            <!---Header -->
-            <!-- ---------------------------------------------- -->
-            <v-app-bar elevation="0" color="primary">
-                <div class="pe-5">
-                    <div class="d-sm-flex d-none">
-                        <LayoutLogo/>
-                    </div>
-                    <div class="pr-2 pt-2 d-sm-none d-flex">
-                        <LayoutLogoIcon />
-                    </div>
-                </div>
-                <v-app-bar-nav-icon class="" @click="drawer = !drawer" />
-                <v-spacer />
-                <LayoutHeader />
-            </v-app-bar>
-            <v-main>
-                <!-- ---------------------------------------------- -->
-                <!---Sidebar -->
-                <!-- ---------------------------------------------- -->
-                <v-navigation-drawer left :permanent="mdAndUp" class="leftSidebar" elevation="10" app :temporary="mdAndDown" v-model="drawer"
-                    expand-on-hover>
-                    <LayoutSidebar />
-                </v-navigation-drawer>
-                <v-container fluid class="page-wrapper">
-                    <div class="maxWidth">
-                        <NuxtPage  />
-                    </div>
-                </v-container>
-            </v-main>
-        </v-app>
-    </div>
+  <v-locale-provider>
+    <!-- <Topbar /> -->
+    <v-app>
+      <LayoutFullMain />
+    </v-app>
+  </v-locale-provider>
 </template>

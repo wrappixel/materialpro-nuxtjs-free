@@ -4,25 +4,28 @@ const BLUE_THEME: ThemeTypes = {
     name: 'BLUE_THEME',
     dark: false,
     variables: {
-        'border-color': '#e5eaef'
+        'border-color': '#ebf1f6',
+        'border-opacity': 1,
     },
     colors: {
-        primary: '#1e88e5',
-        secondary: '#0cb9c5',
-        info: '#539BFF',
-        success: '#13DEB9',
+        primary: '#1B84FF',
+        secondary: '#43CED7',
+        info: '#2CABE3',
+        success: '#2CD07E',
         accent: '#FFAB91',
-        warning: '#FFAE1F',
-        error: '#FA896B',
-        lightprimary: '#f5fcfd',
-        lightsecondary: '#E8F7FF',
-        lightsuccess: '#E6FFFA',
-        lighterror: '#FDEDE8',
-        lightwarning: '#FEF5E5',
-        lightinfo: '#ebf3fe',
-        textPrimary: '#2A3547',
-        textSecondary: '#2A3547',
-        borderColor: '#e5eaef',
+        warning: '#F6C000',
+        error: '#F8285A',
+        purple:'#725AF2',
+        indigo:'#6610f2',
+        lightprimary: '#EDF5FD',
+        lightsecondary: '#F2FCFC',
+        lightsuccess: '#EDFDF2',
+        lighterror: '#FFF0F4',
+        lightwarning: '#FFFCF0',
+        lightinfo: '#E4F5FF',
+        textPrimary: '#3A4752',
+        textSecondary: '#768B9E',
+        borderColor: '#ebf1f6',
         inputBorder: '#DFE5EF',
         containerBg: '#ffffff',
         background: '#eef5f9',
@@ -30,11 +33,8 @@ const BLUE_THEME: ThemeTypes = {
         surface: '#fff',
         'on-surface-variant': '#fff',
         grey100: '#F2F6FA',
-        grey200: '#EAEFF4',
-        darkbg:'#2a3447'
+        grey200: '#EAEFF4'
     }
 };
-
-
 
 export { BLUE_THEME};
