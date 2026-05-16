@@ -43,7 +43,7 @@ watch(mdAndDown, (val) => {
         <v-btn
           class="mr-2 bg-success"
           rounded="pill"
-          href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos"
+          href="https://wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos"
           target="_blank"
           >Check Pro Template</v-btn
         >

@@ -11,7 +11,7 @@ const items = [
   {
     text: "Templates",
     icon: "window-frame-linear",
-    url: "https://www.wrappixel.com/templates/category/nuxt-templates/",
+    url: "https://wrappixel.com/templates/category/nuxt-templates/",
   },
   {
     text: "Help",
@@ -21,7 +21,7 @@ const items = [
   {
     text: "Hire Us",
     icon: "case-round-linear",
-    url: "https://www.wrappixel.com/hire-us/",
+    url: "https://wrappixel.com/hire-us/",
   },
 ];
 
@@ -29,34 +29,34 @@ const preview_link = [
   {
     title: "Nuxtjs Preview",
     img: icon5,
-    url: "https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos",
   },
 
   {
     title: "Angular Preview",
     img: icon2,
-    url: "https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro-angular-dashboard/?ref=376#demos",
   },
   {
     title: "VueJs Version",
     img: icon1,
-    url: "https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro-vuetify-admin/?ref=376#demos",
   },
   {
     title: "Nextjs Preview",
     img: icon3,
-    url: "https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos",
   },
   {
     title: "Reactjs Preview",
     img: icon4,
-    url: "https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro-react-admin/?ref=376#demos",
   },
 
   {
     title: "Bootstrap Preview",
     img: icon6,
-    url: "https://www.wrappixel.com/templates/materialpro/?ref=376#demos",
+    url: "https://wrappixel.com/templates/materialpro/?ref=376#demos",
   },
 ];
 </script>
@@ -66,7 +66,7 @@ const preview_link = [
       class="d-flex flex-lg-row flex-column ga-3 justify-space-between align-center"
     >
       <div class="d-flex align-center ga-6">
-        <a href="https://www.wrappixel.com/" target="_blank" class="lh-0">
+        <a href="https://wrappixel.com/" target="_blank" class="lh-0">
           <img src="/images/logos/logo-wrappixel.svg" width="148"
         /></a>
         <div
@@ -125,7 +125,7 @@ const preview_link = [
           </v-menu>
           <v-btn
             class="purple-btn text-surface text-h6 font-weight-medium"
-            href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos"
+            href="https://wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos"
             target="_blank"
           >
             <span class="d-flex ga-2">

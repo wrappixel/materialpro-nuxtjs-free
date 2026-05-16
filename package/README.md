@@ -1,6 +1,6 @@
 # MaterialPro-nuxtjs-free
 Free Nuxt 3 Admin Template with vuetify 3 + Typescript
-<img src="https://adminmart.com/wp-content/uploads/2023/02/MaterialPro-free-vuetify-dashboard.png" alt="Free Nuxt 3 Admin Template with vuetify 3 + Typescript"/>
+![MaterialPro Free NuxtJs Admin Template Demo Screenshot](https://images.wrappixel.com/templates/free/materialpro/materialpro-nuxtjs-free.webp)
 # <a href="https://MaterialPro-nuxtjs-free.netlify.app">Live Demo </a>
 
 
