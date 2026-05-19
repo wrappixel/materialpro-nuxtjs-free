@@ -249,17 +249,19 @@ Follow these simple steps to start contributing:
 ---
 
 ## 🧭 Useful Links
-
-- <p><a href="https://wrappixel.com/templates/category/admin-dashboard-templates/?ref=376">Admin Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/bootstrap-templates/?ref=376">Bootstrap Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/react-templates/?ref=376">React Template</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/admin-dashboard-templates/?ref=376">Admin Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/bootstrap-templates/?ref=376">Bootstrap Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/react-templates/?ref=376">React Template</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/tailwind-templates/?ref=376">Tailwind Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/vue-templates/?ref=376">Vue Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/shadcn-dashboard/?ref=376">Shadcn Dashboard</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/astro-templates/?ref=376">Astro Templates</a> from Wrappixel</p>
 
 ---
 
