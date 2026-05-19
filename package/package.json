@@ -11,13 +11,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.16.2"
+    "nuxt": "^4.4.6"
   },
   "dependencies": {
+    "@iconify/vue": "^4.1.1",
     "@mdi/font": "7.4.47",
     "@nuxt/vite-builder": "3.16.2",
     "apexcharts": "4.5.0",
-    "@iconify/vue": "^4.1.1",
     "sass": "1.70.0",
     "vue": "3.5.13",
     "vue-tabler-icons": "2.21.0",
